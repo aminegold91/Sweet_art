@@ -268,33 +268,26 @@ section .warning i{
 }
 .c-video{
   padding: 15px 20px;
-  
   margin: 15px ;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  color: var(--color);
   border-radius: 8px;
-}
-.c-video iframe{
-  padding: 15px;
+  
 }
 .c-video .flex{
   margin: 15px;
-  background: var(--bg);
-  border-radius: 8px;
-  overflow: hidden;
+border-radius: 8px;
+  
 }
+
 .c-video .flex img{
   width: 300px;
   height: 300px;
-  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px var(--color);
 }
-.c-video .flex h3{
-  text-align: center;
-  font-size: 15px;
-  margin-bottom: 15px;
-}
+
 footer{
   width: 100%;
   background: var(--bg);
@@ -328,6 +321,5 @@ footer div a{
   color: var(--color);
   border-bottom: 5px solid;
   text-shadow: 1px 1px 2px #000;
-
   margin-bottom: 25px;
 }
